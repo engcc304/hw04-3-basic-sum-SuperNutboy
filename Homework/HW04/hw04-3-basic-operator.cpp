@@ -24,5 +24,5 @@ int main (){
     printf("Please enter three numbers. = ");
     scanf("%d %d %d",&numst ,&numsec ,&numth);
     sum = numst + numsec + numth ;
-    printf("%d",sum);
+    printf("Answer = %d",sum);
 }
