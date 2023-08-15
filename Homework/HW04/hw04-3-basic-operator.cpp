@@ -13,3 +13,16 @@
         Answer = 6
 */
 #include <stdio.h>
+
+int main (){
+
+    int numst ;
+    int numsec ;
+    int numth ;
+    int sum ;
+
+    printf("Please enter three numbers. = ");
+    scanf("%d %d %d",&numst ,&numsec ,&numth);
+    sum = numst + numsec + numth ;
+    printf("%d",sum);
+}
